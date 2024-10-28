@@ -30,12 +30,14 @@
               vscode
               android-studio
               spotify
-              nixfmt-classic
               flameshot-wrapper
               vlc
-              glib
               postman
               dbeaver-bin
+              # nix file formatter
+              nixfmt-classic
+               # provide library for gnome
+              glib
               # make ibus work
               ibus
             ];
