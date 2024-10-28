@@ -25,7 +25,6 @@
             username = "jax";
             homeDirectory = "/home/jax";
             packages = with pkgs; [
-              fastfetch
               google-chrome-wrapper
               vscode
               android-studio
@@ -36,10 +35,6 @@
               dbeaver-bin
               # nix file formatter
               nixfmt-classic
-               # provide library for gnome
-              glib
-              # make ibus work
-              ibus
             ];
             file={
               ".config/ibus/rime/default.custom.yaml".source=./ibus/default.custom.yaml;
