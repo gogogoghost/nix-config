@@ -35,6 +35,10 @@
               dbeaver-bin
               # nix file formatter
               nixfmt-classic
+
+              wqy_microhei
+              jdk
+              openssh
             ];
             file={
               ".config/ibus/rime/default.custom.yaml".source=./ibus/default.custom.yaml;

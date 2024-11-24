@@ -2,4 +2,4 @@
 
 set -e 
 
-nix flake update --flake path:./
+nix flake update --flake path:$(pwd)
